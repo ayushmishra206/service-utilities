@@ -1,0 +1,9 @@
+site_utilities.settings:
+  path: '/admin/config/set-location'
+  defaults:
+    _form: '\Drupal\site_utilities\Form\SiteLocationConfigForm'
+    _title: 'Set Site Location'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE

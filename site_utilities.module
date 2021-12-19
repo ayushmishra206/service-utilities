@@ -1,0 +1,13 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function site_utilities_theme($existing, $type, $theme, $path) {
+  return [
+    'time-block' => [
+      'variables' => [
+          'time' => NULL,
+      ],
+    ],
+  ];
+}

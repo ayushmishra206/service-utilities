@@ -1,0 +1,5 @@
+name: Site Utilities
+type: module
+description: A module to create an admin config form to show site location and the current time for the location.
+core_version_requirement: ^8.7.7 || ^9
+package: Custom
